@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nunito&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+@import url('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
+
+* {
+    font-family:'Nunito', 'Agbalumo';
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/fondito.jpg");
+  
+}
+
+.center {
+    text-align: center;
+}
+
+
+.header {
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 75%;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  }
+
+
+h1 {
+    font-weight: 400;
+    color: white;
+  font-family: 'Agbalumo';
+}
+
+h2 {
+  color: black;
+  font-family: 'Nunito';
+}
+label {
+    font-weight: 400;
+    color: black;
+}
+
+.div-cotizador {
+    margin: auto;
+    max-width: 700px;
+    background-image: url("../images/fondo.jpg");
+  opacity: 70%;
+  background-size: cover;
+    padding: 10px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+}
+
+
+div.historial {
+    cursor: pointer;
+    display: flex;
+    float: right;
+    padding: 6px;
+    border-radius: 25px;
+    width: 55px;
+}
+
+div.historial span {
+    text-align: center !important;
+    font-size: xx-large;
+}
+
+select, input {
+    min-width: 50% !important;
+    width: 70% !important;
+}
+
+.separador {
+    margin: 20px;
+}
+
+.importe {
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+  font-family: 'Agbalumo';
+}
+
+.guardar {
+    margin-left: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.ocultar {
+    display: none;
+}
+
+  
+
+button {
+    color: white !important;
+    background-color: #b97ff0 !important;
+}
+
+button:active {
+    background-color: #5449ee !important;
+}
+
+footer {
+    background-color: #a69d96a2;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+ width: 100%;
+  }
+
+.text-rojo {
+    color: #ff0000 !important;
+}
+
+
